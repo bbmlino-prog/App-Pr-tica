@@ -35,5 +35,6 @@ if dados:
   
 else:
     st.info("Carregue um ficheiro excel para começar")
+  
 
 
