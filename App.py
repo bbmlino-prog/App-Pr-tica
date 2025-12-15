@@ -15,7 +15,7 @@ menu = option_menu(menu_title="Menu",
                    default_index=0,
                    orientation="horizontal"
 )
-whit st.sidebar:
+with st.sidebar:
   st.sucess("**UPLOAD DE DADOS**")
 
   dados = st.file_uploader
