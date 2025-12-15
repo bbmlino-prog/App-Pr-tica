@@ -9,7 +9,7 @@ from datetime import date
 st.header("Introduzindo os elementos do Streamlit") 
 
 menu = option_menu(menu_title="Menu",
-                   options=["início", "Gráficos Estatísticos", "Gráficos Dinámicos", "Widgets", "Formulários"],
+                   options=["início", "Gráficos Estáticos", "Gráficos Dinámicos", "Widgets", "Formulários"],
                    icons=["house", "bar-chart", "bar-chart-line", "toggles", "bar-chart"],
                    menu_icon="cast",
                    default_index=0,
@@ -36,6 +36,6 @@ if dados:
 else:
     st.info("Carregue um ficheiro excel para começar")
   
-  
+if menu == "início":
 
 
