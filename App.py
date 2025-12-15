@@ -29,7 +29,7 @@ if dados:
         except FileNotFoundError:
             return pd.dataFrame()
 
-    def = carregar_dados(dados)
+    df = carregar_dados(dados)
     st.table(df)
   
 else:
