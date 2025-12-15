@@ -34,6 +34,6 @@ if dados:
     st.table(df)
   
 else:
-    st.inf("Carregue um ficheiro excel para começar")
+    st.info("Carregue um ficheiro excel para começar")
 
 
