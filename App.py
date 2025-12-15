@@ -7,7 +7,7 @@ menu = option_menu(menu_title="Menu",
                    options=["início", "Gráficos Estatísticos", "Gráfico Dinámicos", "Widgets", "Formulários"],
                    Icons=["house", "bar-chart", "bar-chart-line", "toggles", "bar-chart"],
                    Menu_icon="cast",
-                   defaut_index=o,
+                   defaut_index=0,
                    orientation="horizontal"
 )
 
