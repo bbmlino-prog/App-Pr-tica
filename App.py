@@ -51,7 +51,7 @@ if menu == "Widgets":
                    max_value=35, value=30, step=1
                   )
 
-    texto = f"EU tenho {sd] anos!"
+    texto = f"Eu tenho {sd} anos!"
     st.success(texto)
   
               
