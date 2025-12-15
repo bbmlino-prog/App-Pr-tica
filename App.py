@@ -37,7 +37,7 @@ with st.sidebar:
   
 if menu == "início":
    with st.expander("**Sobre o Instituto Nacional de Estatística**"):
-       st.write("Acesse o Site www-ine.cv")
+       st.write("Acesse o Site www:ine.cv")
        st.image("INE.png")
 
 if menu == "Widgets":
