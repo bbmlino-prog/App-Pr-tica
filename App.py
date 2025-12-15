@@ -2,7 +2,6 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import numpy as np
 import pandas as pd
-from mpl_toolkits.mplot3d.axes3d import Axes3D
 
 
 st.header("Introduzindo os elementos do Streamlit") 
