@@ -19,7 +19,7 @@ with st.sidebar:
   st.sucess("**UPLOAD DE DADOS**")
 
   dados = st.file_uploader
-      ("Carregue...)"
+      "(Carregue...)"
       type=["xlsx", "xls"]
 )
 if dados:
